@@ -6,4 +6,5 @@ for item in range(50):
         f.write("*")
     print()
     f.write("\n")
-    
+
+f.close()    
