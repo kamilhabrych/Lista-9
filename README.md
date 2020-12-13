@@ -1,8 +1,6 @@
-# Lista 9
+# Lista 9 - Języki programowania wysokiego poziomu
 
-# Języki programowania wysokiego poziomu
-
-# Pliki z liczbami
+Pliki z liczbami
 
 Zadania:
 
