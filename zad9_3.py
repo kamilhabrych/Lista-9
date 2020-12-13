@@ -7,4 +7,4 @@ for item in range(50):
         f.write("*")
     f.write("\n")
 
-f.close()    
+f.close()
