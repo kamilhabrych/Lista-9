@@ -1,9 +1,11 @@
 # Lista 9
 
-#Języki programowania wysokiego poziomu
-#Pliki z liczbami
+# Języki programowania wysokiego poziomu
+
+# Pliki z liczbami
 
 Zadania:
+
 1) Wypełnij plik liczby 20-stoma liczbami losowymi z zakresu 1-100. 
 Liczby poodzielaj spacjami.
 Sprawdź zawartość pliku liczby.
