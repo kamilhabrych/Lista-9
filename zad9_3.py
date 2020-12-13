@@ -1,5 +1,3 @@
-import random
-
 f = open('file.txt', 'w')
 
 for item in range(50):
