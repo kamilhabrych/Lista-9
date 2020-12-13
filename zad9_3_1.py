@@ -2,7 +2,7 @@ import random
 
 f = open('file2.txt', 'w')
 
-char = [' ', ' ', ' ', ' ', '*']
+char = [' ', '*']
 
 for item in range(50):
     for item in range(50):
