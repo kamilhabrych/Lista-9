@@ -7,5 +7,5 @@ for item in range(2,100+1):
     else:
         f.write(str(item))
         f.write(" ")
-
+ 
 f.close()
