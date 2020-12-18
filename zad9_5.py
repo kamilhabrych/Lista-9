@@ -1,21 +1,20 @@
 import math
-def roundUp(x):
+def roundCeil(x):
     return int(math.ceil(x/100))*100
 
 with open('pierwsze.txt', 'r') as f1:
     for s in f1: 
         pass
-    s = s.replace(' ', 'x')
-    l = s.split('x')
+    l = s.split(' ')
     l.pop()
-    last_digit = l.pop()
+    last = l.pop()
     f1.close()
 
 with open('pierwsze.txt', 'a') as f2:
-    n = roundUp(int(last_digit))
-    m = n + 101
+    y = roundCeil(int(last))
+    x = y + 101
     f2.write("\n")
-    for i in range(n,m):
+    for i in range(y,x):
         for j in range(2,i):
             if (i % j) == 0: 
                 break
