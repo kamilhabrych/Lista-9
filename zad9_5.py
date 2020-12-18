@@ -1,4 +1,5 @@
 import math
+
 def roundCeil(x):
     return int(math.ceil(x/100))*100
 

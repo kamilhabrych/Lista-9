@@ -30,7 +30,7 @@ while True:
     
 printCircle(radius,p)
 
-with open('okrag.txt','w') as f1:
+with open('circle.txt','w') as f1:
     for row in range(1,50+1):
         for column in range(1,50+1):
             notFound = True
