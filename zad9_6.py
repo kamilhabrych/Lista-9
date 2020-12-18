@@ -31,8 +31,10 @@ with open('odcinek.txt','w') as f1:
     for row in range(1,50+1):
         for column in range(1,50+1):
             if equal == True:
-                if ((p.y > q.y and row >= q.y and row <= p.y) or (p.y < q.y and row >= p.y and row <= q.y)) and column == p.x: f1.write("*")
-                else: f1.write(" ")
+                if ((p.y > q.y and row >= q.y and row <= p.y) or (p.y < q.y and row >= p.y and row <= q.y)) and column == p.x: 
+                    f1.write("*")
+                else: 
+                    f1.write(" ")
             else:
                 if (column == p.x and row == p.y) or (column == q.x and row == q.y): 
                     f1.write("*")
