@@ -12,7 +12,7 @@ def randomPoints(point):
 
 equal = False
 
-with open('odcinek.txt','w') as f1:
+with open('points.txt','w') as f1:
 
     p = Point()
     q = Point()
